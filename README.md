@@ -41,7 +41,7 @@ Deep Chem sorce code ([Link](https://github.com/deepchem/deepchem))
 
 ## Yaml environment
 
-I created a Conda virtual environment named **test_GNN**, and installed main libraries. In order to make the same Conda environment, download the yaml ([yaml]()) file. Then, run the following command in Terminal:
+I created a Conda virtual environment named **test_GNN**, and installed main libraries. In order to make the same Conda environment, download the yaml ([yaml](https://github.com/mohammad-saber/Deep_Chem_Tutorial/blob/main/GNN_environment.yaml)) file. Then, run the following command in Terminal:
 
     conda env create --file GNN_environment.yaml
 
