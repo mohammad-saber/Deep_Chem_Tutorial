@@ -1,0 +1,48 @@
+{
+  "GraphConvModel": {
+    "n_tasks": 1,
+    "mode": "regression",
+    "batch_size": 64,
+    "learning_rate": 0.01,
+    "dropout": 0.2,
+    "graph_conv_layers": [
+      64
+    ],
+    "dense_layer_size": 128
+  },
+  "WeaveModel": {
+    "n_tasks": 1,
+    "mode": "regression",
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "dropout": 0.25,
+    "n_weave": 2,
+    "batch_normalize": false
+  },
+  "GATModel": {
+    "n_tasks": 1,
+    "mode": "regression",
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "dropout": 0
+  },
+  "GCNModel": {
+    "n_tasks": 1,
+    "mode": "regression",
+    "batch_size": 100,
+    "learning_rate": 0.01,
+    "dropout": 0.2,
+    "graph_conv_layers": [
+      64,
+      64
+    ]
+  },
+  "AttentiveFPModel": {
+    "n_tasks": 1,
+    "mode": "regression",
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "dropout": 0.4,
+    "num_layers": 2
+  }
+}
